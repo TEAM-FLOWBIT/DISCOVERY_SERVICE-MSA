@@ -6,6 +6,5 @@ spring:
     name: discoveryservice
 
 eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
+  server:
+    jsonFormatForAllResponses: true
